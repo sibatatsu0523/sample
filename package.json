@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "test": "jest"
+    "test": "jest",
+    "prepare": "husky"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -27,5 +28,4 @@
       "pre-push": "test"
     }
   }
-
 }
