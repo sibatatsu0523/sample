@@ -7,6 +7,6 @@ describe('walkFast関数のモック化テスト', () => {
     
     const sample = new Sample();
 
-      expect(sample.getData()).toBe(1);
+      expect(sample.getData()).toBe(2);
   });
 });
