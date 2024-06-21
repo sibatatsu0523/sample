@@ -5,6 +5,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "test": "jest",
+    "testOnlyChange": "jest",
     "prepare": "husky"
   },
   "dependencies": {
